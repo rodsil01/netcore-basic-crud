@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+.add-position-btn {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 20px 10px 20px;
+    background-color: #ccc;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.positions-table {
+    width: 100%;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th:last-child, td:last-child {
+    width: 300px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 20px
+}

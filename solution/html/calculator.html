@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="../styles/calculator.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="calculator-container">
+            <div class="calculator-input">
+                <div id="input-container">
+                    <input type="text" id="input-value" />
+                </div>
+                <div id="button-container">
+                    <button type="button" id="calculate-btn">Ejecutar</button>
+                </div>
+            </div>
+            <div class="last-value" style="display: none;" id="last-result-container">
+                <label for="last-result">Último valor</label>
+                <input type="text" id="last-result" name="last-results" disabled />
+            </div>
+            <div class="database-save-button-container">
+                <button type="button" id="save-to-db-btn">Guardar en base de datos</button>
+            </div>
+            <div style="display: none;" id="results-container">
+                <ul class="results-list" id="results-list">
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="../scripts/calculator.js" defer></script>
+</body>
+</html>
